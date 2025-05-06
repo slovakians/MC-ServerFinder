@@ -4,7 +4,7 @@ from discord.ext import commands
 import random
 
 # MongoDB setup
-client = MongoClient("mongodb+srv://siresirol937:t8gY9FXLV3JcfQ4P@cluster0.rabuteq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0") // change it if u want reccommend to change it
+client = MongoClient("mongodb+srv://siresirol937:t8gY9FXLV3JcfQ4P@cluster0.rabuteq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 db = client["mcscanner"]
 collection = db["servers"]
 
