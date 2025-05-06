@@ -136,5 +136,5 @@ and now after generating is done it will now try checking if its a mc server wit
 
 to get the servers or find a server u want!
 
-Find servers at (minecraft-mp.com)[https://minecraft-mp.com/servers/list/12/] just copy domain paste and wait
+Find servers at [minecraft-mp.com](https://minecraft-mp.com/servers/list/12/) just copy domain paste and wait
 ---
