@@ -127,3 +127,14 @@ MC-ServerFinder/
 ## 📜 License
 
 MIT © slovakians / SYZDARK
+
+---
+## 🔥 INFO
+this is a fast scanner that works by generating ips for example 123.90.87.120 it will remove the 120 and replace it with a random digit highest is 3 digits
+
+and now after generating is done it will now try checking if its a mc server with the default port 25565 and its crazy fast please use the bot.py
+
+to get the servers or find a server u want!
+
+Find servers at (minecraft-mp.com)[https://minecraft-mp.com/servers/list/12/] just copy domain paste and wait
+---
