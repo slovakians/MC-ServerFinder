@@ -1,3 +1,9 @@
+## WHY REMOVE MONGODB URI?
+- Due to a HIGH security Issue which i have not forgotten it was hastly removed
+
+- Now u need to get the mongodb uri urselfs Sorry.
+
+
 ---
 # 🧠 MC-ServerFinder
 
