@@ -12,7 +12,7 @@ import requests
 from pymongo import MongoClient
 
 # MongoDB setup
-client = MongoClient("mongodb+srv://siresirol937:t8gY9FXLV3JcfQ4P@cluster0.rabuteq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+client = MongoClient("GET YOUR OWN MONGODB URI ")
 db_name = 'mcscanner'
 db = client[db_name]
 scanned_servers_set = set()
