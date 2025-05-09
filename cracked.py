@@ -3,7 +3,7 @@ from pymongo import MongoClient
 import colorama
 
 # MongoDB setup
-client = MongoClient("mongodb+srv://siresirol937:t8gY9FXLV3JcfQ4P@cluster0.rabuteq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+client = MongoClient("GET YOUR OWN MONGODB URI")
 db = client["mcscanner"]
 scanned_servers_set = set()
 
