@@ -395,3 +395,360 @@ AttributeError: 'bool' object has no attribute 'icon'
 2025-05-11 07:44:30,932 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server da ...
 2025-05-11 07:45:00,932 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server da ...
 2025-05-11 07:45:30,932 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server da ...
+2025-05-11 07:46:00,932 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server da ...
+2025-05-11 07:46:30,933 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server da ...
+2025-05-11 07:46:35,213 - [Crafty] - INFO     - app.classes.web.routes.api.servers.server.index - Removing server and all associated files for server: iwasnotwithu with ID: 03286b97-9182-4fd2-b121-8a9d3514b78c
+2025-05-11 07:46:35,213 - [Crafty] - INFO     - app.classes.shared.main_controller - Deleting Server: ID 03286b97-9182-4fd2-b121-8a9d3514b78c | Name: iwasnotwithu 
+2025-05-11 07:46:35,228 - [Crafty] - INFO     - audit_log - deleted the server 03286b97-9182-4fd2-b121-8a9d3514b78c
+2025-05-11 07:47:00,932 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server da ...
+2025-05-11 07:47:30,933 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server da ...
+2025-05-11 07:48:00,933 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server da ...
+2025-05-11 07:48:30,933 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server da ...
+2025-05-11 07:49:00,932 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server da ...
+2025-05-11 07:49:30,932 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server da ...
+2025-05-11 07:50:00,934 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server da ...
+2025-05-11 07:50:30,935 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server da ...
+2025-05-11 07:51:00,933 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server da ...
+2025-05-11 07:51:30,933 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server da ...
+2025-05-11 07:52:00,933 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server da ...
+2025-05-11 07:52:30,933 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server da ...
+2025-05-11 07:53:00,932 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server da ...
+2025-05-11 07:53:10,977 - [Crafty] - INFO     - app.classes.minecraft.bigbucket - Checking Big Bucket status
+2025-05-11 07:53:11,156 - [Crafty] - INFO     - app.classes.minecraft.bigbucket - Big bucket is alive and responding as expected
+2025-05-11 07:53:23,286 - [Crafty] - INFO     - app.classes.minecraft.bigbucket - Checking Big Bucket status
+2025-05-11 07:53:23,695 - [Crafty] - INFO     - app.classes.minecraft.bigbucket - Big bucket is alive and responding as expected
+2025-05-11 07:53:30,932 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server da ...
+2025-05-11 07:54:00,933 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server da ...
+2025-05-11 07:54:12,949 - [Crafty] - INFO     - app.classes.shared.main_controller - No server.properties found on import.Creating one with port selection of 25565
+2025-05-11 07:54:12,954 - [Crafty] - INFO     - app.classes.controllers.servers_controller - Checking to see if we already registered 97abc04f-2a0c-4f33-bdc3-8c16f7103363
+2025-05-11 07:54:12,954 - [Crafty] - INFO     - app.classes.controllers.servers_controller - skipping initialization of server 97abc04f-2a0c-4f33-bdc3-8c16f7103363 because it is already loaded
+2025-05-11 07:54:12,956 - [Crafty] - INFO     - app.classes.controllers.servers_controller - Checking to see if we already registered 47a6c196-1a19-4886-9af4-4975d89fc9bf
+2025-05-11 07:54:12,958 - [Crafty] - INFO     - app.classes.shared.migration - Starting migrations
+2025-05-11 07:54:12,969 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220427_init"
+2025-05-11 07:54:12,971 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220427_init"
+2025-05-11 07:54:12,973 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220817_schedule_rename_downloading"
+2025-05-11 07:54:12,975 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220817_schedule_rename_downloading"
+2025-05-11 07:54:12,977 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20230827_add_icon"
+2025-05-11 07:54:12,978 - [Crafty] - INFO     - app.classes.shared.migration - Done "20230827_add_icon"
+2025-05-11 07:54:12,985 - [Crafty] - INFO     - app.classes.shared.server - Creating Server object: 47a6c196-1a19-4886-9af4-4975d89fc9bf | Server Name: papermc | Auto Start: False
+2025-05-11 07:54:12,985 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server papermc ...
+2025-05-11 07:54:13,504 - [Crafty] - INFO     - audit_log - created server papermc (ID: 47a6c196-1a19-4886-9af4-4975d89fc9bf) (UUID: 47a6c196-1a19-4886-9af4-4975d89fc9bf)
+2025-05-11 07:54:16,007 - [Crafty] - INFO     - app.classes.minecraft.bigbucket - https://jars.arcadiatech.org/paper/1.12/paper.jar
+2025-05-11 07:54:16,031 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Requesting remote: https://jars.arcadiatech.org/paper/1.12/paper.jar
+2025-05-11 07:54:16,031 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download Destination: /crafty/servers/47a6c196-1a19-4886-9af4-4975d89fc9bf/paper-1.12.jar
+2025-05-11 07:54:16,574 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 2.73%
+2025-05-11 07:54:16,577 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 5.47%
+2025-05-11 07:54:16,582 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 8.20%
+2025-05-11 07:54:16,587 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 10.94%
+2025-05-11 07:54:16,590 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 13.67%
+2025-05-11 07:54:16,593 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 16.41%
+2025-05-11 07:54:16,596 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 19.14%
+2025-05-11 07:54:16,599 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 21.88%
+2025-05-11 07:54:16,603 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 24.61%
+2025-05-11 07:54:16,606 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 27.34%
+2025-05-11 07:54:16,609 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 30.08%
+2025-05-11 07:54:16,613 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 32.81%
+2025-05-11 07:54:16,618 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 35.55%
+2025-05-11 07:54:16,625 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 38.28%
+2025-05-11 07:54:16,632 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 41.02%
+2025-05-11 07:54:16,635 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 43.75%
+2025-05-11 07:54:16,637 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 46.48%
+2025-05-11 07:54:16,639 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 49.22%
+2025-05-11 07:54:16,642 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 51.95%
+2025-05-11 07:54:16,644 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 54.69%
+2025-05-11 07:54:16,646 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 57.42%
+2025-05-11 07:54:16,650 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 60.16%
+2025-05-11 07:54:16,652 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 62.89%
+2025-05-11 07:54:16,655 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 65.63%
+2025-05-11 07:54:16,658 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 68.36%
+2025-05-11 07:54:16,661 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 71.09%
+2025-05-11 07:54:16,664 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 73.83%
+2025-05-11 07:54:16,666 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 76.56%
+2025-05-11 07:54:16,672 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 79.30%
+2025-05-11 07:54:16,679 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 82.03%
+2025-05-11 07:54:16,682 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 84.77%
+2025-05-11 07:54:16,685 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 87.50%
+2025-05-11 07:54:16,687 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 90.23%
+2025-05-11 07:54:16,690 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 92.97%
+2025-05-11 07:54:16,693 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 95.70%
+2025-05-11 07:54:16,695 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 98.44%
+2025-05-11 07:54:16,697 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 100.00%
+2025-05-11 07:54:24,615 - [Crafty] - INFO     - audit_log - edited user admin (UID: 1)with roles set()
+2025-05-11 07:54:30,932 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server da ...
+2025-05-11 07:54:34,183 - [Crafty] - INFO     - audit_log - issued command start_server for server papermc with ID: 47a6c196-1a19-4886-9af4-4975d89fc9bf
+2025-05-11 07:54:34,990 - [Crafty] - INFO     - app.classes.shared.server - Polling server statistics papermc every 5 seconds
+2025-05-11 07:54:34,991 - [Crafty] - INFO     - app.classes.shared.server - Saving server statistics papermc every 30 seconds
+2025-05-11 07:54:34,993 - [Crafty] - INFO     - app.classes.shared.server - Start command detected. Reloading settings from DB for server papermc
+2025-05-11 07:54:34,993 - [Crafty] - INFO     - app.classes.shared.helpers - /crafty/servers/47a6c196-1a19-4886-9af4-4975d89fc9bf/tempfile.txt is writable
+2025-05-11 07:54:34,995 - [Crafty] - INFO     - app.classes.shared.server - Launching Server papermc with command ['java', '-Xms6000M', '-Xmx6000M', '-jar', 'paper-1.12.jar', 'nogui']
+2025-05-11 07:54:36,595 - [Crafty] - INFO     - app.classes.shared.server - Polling server statistics papermc every 5 seconds
+2025-05-11 07:54:36,596 - [Crafty] - INFO     - app.classes.shared.server - Saving server statistics papermc every 30 seconds
+2025-05-11 07:54:36,598 - [Crafty] - INFO     - app.classes.shared.server - Start command detected. Reloading settings from DB for server papermc
+2025-05-11 07:54:36,599 - [Crafty] - INFO     - app.classes.shared.helpers - /crafty/servers/47a6c196-1a19-4886-9af4-4975d89fc9bf/tempfile.txt is writable
+2025-05-11 07:54:36,600 - [Crafty] - INFO     - app.classes.shared.server - Launching Server papermc with command ['java', '-Xms6000M', '-Xmx6000M', '-jar', 'paper-1.12.jar', 'nogui']
+2025-05-11 07:54:36,601 - [Crafty] - INFO     - app.classes.shared.server - Unix Detected
+2025-05-11 07:54:36,601 - [Crafty] - INFO     - app.classes.shared.server - Starting server in /crafty/servers/47a6c196-1a19-4886-9af4-4975d89fc9bf with command: ['java', '-Xms6000M', '-Xmx6000M', '-jar', 'paper-1.12.jar', 'nogui']
+2025-05-11 07:54:36,604 - [Crafty] - INFO     - app.classes.shared.server - Server papermc running with PID 144
+2025-05-11 07:54:36,605 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server papermc ...
+2025-05-11 07:55:00,932 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server da ...
+2025-05-11 07:55:06,598 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server papermc ...
+2025-05-11 07:55:29,024 - [Crafty] - INFO     - app.classes.web.routes.api.servers.server.index - Removing server and all associated files for server: papermc with ID: 47a6c196-1a19-4886-9af4-4975d89fc9bf
+2025-05-11 07:55:29,024 - [Crafty] - INFO     - app.classes.shared.main_controller - Deleting Server: ID 47a6c196-1a19-4886-9af4-4975d89fc9bf | Name: papermc 
+2025-05-11 07:55:29,043 - [Crafty] - INFO     - audit_log - deleted the server 47a6c196-1a19-4886-9af4-4975d89fc9bf
+2025-05-11 07:55:30,932 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server da ...
+2025-05-11 07:55:55,011 - [Crafty] - INFO     - app.classes.minecraft.bigbucket - Checking Big Bucket status
+2025-05-11 07:55:55,706 - [Crafty] - INFO     - app.classes.minecraft.bigbucket - Big bucket is alive and responding as expected
+2025-05-11 07:56:00,932 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server da ...
+2025-05-11 07:56:23,801 - [Crafty] - INFO     - app.classes.shared.main_controller - No server.properties found on import.Creating one with port selection of 25565
+2025-05-11 07:56:23,807 - [Crafty] - INFO     - app.classes.controllers.servers_controller - Checking to see if we already registered 97abc04f-2a0c-4f33-bdc3-8c16f7103363
+2025-05-11 07:56:23,807 - [Crafty] - INFO     - app.classes.controllers.servers_controller - skipping initialization of server 97abc04f-2a0c-4f33-bdc3-8c16f7103363 because it is already loaded
+2025-05-11 07:56:23,810 - [Crafty] - INFO     - app.classes.controllers.servers_controller - Checking to see if we already registered 9ea0e776-6669-4091-a0e2-e816d961db9e
+2025-05-11 07:56:23,813 - [Crafty] - INFO     - app.classes.shared.migration - Starting migrations
+2025-05-11 07:56:23,828 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220427_init"
+2025-05-11 07:56:23,830 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220427_init"
+2025-05-11 07:56:23,832 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220817_schedule_rename_downloading"
+2025-05-11 07:56:23,834 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220817_schedule_rename_downloading"
+2025-05-11 07:56:23,837 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20230827_add_icon"
+2025-05-11 07:56:23,838 - [Crafty] - INFO     - app.classes.shared.migration - Done "20230827_add_icon"
+2025-05-11 07:56:23,848 - [Crafty] - INFO     - app.classes.shared.server - Creating Server object: 9ea0e776-6669-4091-a0e2-e816d961db9e | Server Name: papermc | Auto Start: False
+2025-05-11 07:56:23,848 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server papermc ...
+2025-05-11 07:56:24,375 - [Crafty] - INFO     - audit_log - created server papermc (ID: 9ea0e776-6669-4091-a0e2-e816d961db9e) (UUID: 9ea0e776-6669-4091-a0e2-e816d961db9e)
+2025-05-11 07:56:26,877 - [Crafty] - INFO     - app.classes.minecraft.bigbucket - https://jars.arcadiatech.org/vanilla/1.12/vanilla.jar
+2025-05-11 07:56:26,911 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Requesting remote: https://jars.arcadiatech.org/vanilla/1.12/vanilla.jar
+2025-05-11 07:56:26,911 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download Destination: /crafty/servers/9ea0e776-6669-4091-a0e2-e816d961db9e/vanilla-1.12.jar
+2025-05-11 07:56:27,355 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 3.47%
+2025-05-11 07:56:27,360 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 6.94%
+2025-05-11 07:56:27,368 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 10.42%
+2025-05-11 07:56:27,372 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 13.89%
+2025-05-11 07:56:27,376 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 17.36%
+2025-05-11 07:56:27,380 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 20.83%
+2025-05-11 07:56:27,384 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 24.30%
+2025-05-11 07:56:27,386 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 27.77%
+2025-05-11 07:56:27,390 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 31.25%
+2025-05-11 07:56:27,393 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 34.72%
+2025-05-11 07:56:27,396 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 38.19%
+2025-05-11 07:56:27,398 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 41.66%
+2025-05-11 07:56:27,402 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 45.13%
+2025-05-11 07:56:27,405 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 48.61%
+2025-05-11 07:56:27,408 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 52.08%
+2025-05-11 07:56:27,411 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 55.55%
+2025-05-11 07:56:27,414 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 59.02%
+2025-05-11 07:56:27,417 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 62.49%
+2025-05-11 07:56:27,420 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 65.96%
+2025-05-11 07:56:27,423 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 69.44%
+2025-05-11 07:56:27,426 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 72.91%
+2025-05-11 07:56:27,429 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 76.38%
+2025-05-11 07:56:27,432 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 79.85%
+2025-05-11 07:56:27,435 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 83.32%
+2025-05-11 07:56:27,437 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 86.80%
+2025-05-11 07:56:27,441 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 90.27%
+2025-05-11 07:56:27,444 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 93.74%
+2025-05-11 07:56:27,447 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 97.21%
+2025-05-11 07:56:27,453 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 100.00%
+2025-05-11 07:56:30,933 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server da ...
+2025-05-11 07:57:00,932 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server da ...
+2025-05-11 07:57:01,634 - [Crafty] - INFO     - audit_log - modified the server with ID 9ea0e776-6669-4091-a0e2-e816d961db9e
+2025-05-11 07:57:30,932 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server da ...
+2025-05-11 07:58:00,932 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server da ...
+2025-05-11 07:58:30,932 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server da ...
+2025-05-11 07:59:00,933 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server da ...
+2025-05-11 07:59:30,932 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server da ...
+2025-05-11 08:00:00,932 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server da ...
+2025-05-11 08:00:30,932 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server da ...
+2025-05-11 08:01:00,932 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server da ...
+2025-05-11 08:01:30,932 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server da ...
+2025-05-11 08:02:00,932 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server da ...
+2025-05-11 08:02:30,932 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server da ...
+2025-05-11 08:03:00,932 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server da ...
+2025-05-11 08:03:30,932 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server da ...
+2025-05-11 08:04:00,932 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server da ...
+2025-05-11 08:04:30,932 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server da ...
+2025-05-11 08:05:00,932 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server da ...
+2025-05-11 08:05:12,796 - [Crafty] - INFO     - audit_log - modified the server with ID 9ea0e776-6669-4091-a0e2-e816d961db9e
+2025-05-11 08:05:30,932 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server da ...
+2025-05-11 08:06:00,932 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server da ...
+2025-05-11 08:06:30,932 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server da ...
+2025-05-11 08:07:00,932 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server da ...
+2025-05-11 08:07:30,932 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server da ...
+2025-05-11 08:08:00,932 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server da ...
+2025-05-11 08:08:30,932 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server da ...
+2025-05-11 08:09:00,932 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server da ...
+2025-05-11 08:09:02,759 - [Crafty] - INFO     - audit_log - issued command start_server for server papermc with ID: 9ea0e776-6669-4091-a0e2-e816d961db9e
+2025-05-11 08:09:03,097 - [Crafty] - INFO     - app.classes.shared.server - Polling server statistics papermc every 5 seconds
+2025-05-11 08:09:03,098 - [Crafty] - INFO     - app.classes.shared.server - Saving server statistics papermc every 30 seconds
+2025-05-11 08:09:03,100 - [Crafty] - INFO     - app.classes.shared.server - Start command detected. Reloading settings from DB for server papermc
+2025-05-11 08:09:03,101 - [Crafty] - INFO     - app.classes.shared.helpers - /crafty/servers/9ea0e776-6669-4091-a0e2-e816d961db9e/tempfile.txt is writable
+2025-05-11 08:09:03,103 - [Crafty] - INFO     - app.classes.shared.server - Launching Server papermc with command ['java', '-Xms3000M', '-Xmx4000M', '-jar', 'vanilla-1.12.jar', 'nogui']
+2025-05-11 08:09:05,704 - [Crafty] - INFO     - app.classes.shared.server - Polling server statistics papermc every 5 seconds
+2025-05-11 08:09:05,706 - [Crafty] - INFO     - app.classes.shared.server - Saving server statistics papermc every 30 seconds
+2025-05-11 08:09:05,709 - [Crafty] - INFO     - app.classes.shared.server - Start command detected. Reloading settings from DB for server papermc
+2025-05-11 08:09:05,710 - [Crafty] - INFO     - app.classes.shared.helpers - /crafty/servers/9ea0e776-6669-4091-a0e2-e816d961db9e/tempfile.txt is writable
+2025-05-11 08:09:05,713 - [Crafty] - INFO     - app.classes.shared.server - Launching Server papermc with command ['java', '-Xms3000M', '-Xmx4000M', '-jar', 'vanilla-1.12.jar', 'nogui']
+2025-05-11 08:09:05,713 - [Crafty] - INFO     - app.classes.shared.server - Unix Detected
+2025-05-11 08:09:05,714 - [Crafty] - INFO     - app.classes.shared.server - Starting server in /crafty/servers/9ea0e776-6669-4091-a0e2-e816d961db9e with command: ['java', '-Xms3000M', '-Xmx4000M', '-jar', 'vanilla-1.12.jar', 'nogui']
+2025-05-11 08:09:05,724 - [Crafty] - INFO     - app.classes.shared.server - Server papermc running with PID 179
+2025-05-11 08:09:05,726 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server papermc ...
+2025-05-11 08:09:19,092 - [Crafty] - INFO     - audit_log - issued command stop_server for server papermc with ID: 9ea0e776-6669-4091-a0e2-e816d961db9e
+2025-05-11 08:09:19,101 - [Crafty] - INFO     - app.classes.shared.server - Can't stop server papermc if it's not running
+2025-05-11 08:09:23,685 - [Crafty] - INFO     - audit_log - issued command start_server for server papermc with ID: 9ea0e776-6669-4091-a0e2-e816d961db9e
+2025-05-11 08:09:24,103 - [Crafty] - INFO     - app.classes.shared.server - Polling server statistics papermc every 5 seconds
+2025-05-11 08:09:24,104 - [Crafty] - INFO     - app.classes.shared.server - Saving server statistics papermc every 30 seconds
+2025-05-11 08:09:24,107 - [Crafty] - INFO     - app.classes.shared.server - Start command detected. Reloading settings from DB for server papermc
+2025-05-11 08:09:24,107 - [Crafty] - INFO     - app.classes.shared.helpers - /crafty/servers/9ea0e776-6669-4091-a0e2-e816d961db9e/tempfile.txt is writable
+2025-05-11 08:09:24,109 - [Crafty] - INFO     - app.classes.shared.server - Launching Server papermc with command ['java', '-Xms3000M', '-Xmx4000M', '-jar', 'vanilla-1.12.jar', 'nogui']
+2025-05-11 08:09:24,109 - [Crafty] - INFO     - app.classes.shared.server - Unix Detected
+2025-05-11 08:09:24,110 - [Crafty] - INFO     - app.classes.shared.server - Starting server in /crafty/servers/9ea0e776-6669-4091-a0e2-e816d961db9e with command: ['java', '-Xms3000M', '-Xmx4000M', '-jar', 'vanilla-1.12.jar', 'nogui']
+2025-05-11 08:09:24,113 - [Crafty] - INFO     - app.classes.shared.server - Server papermc running with PID 212
+2025-05-11 08:09:24,114 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server papermc ...
+2025-05-11 08:09:30,934 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server da ...
+2025-05-11 08:09:33,599 - [Crafty] - INFO     - audit_log - issued command stop_server for server papermc with ID: 9ea0e776-6669-4091-a0e2-e816d961db9e
+2025-05-11 08:09:34,109 - [Crafty] - INFO     - app.classes.shared.server - Can't stop server papermc if it's not running
+2025-05-11 08:09:54,107 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server papermc ...
+2025-05-11 08:10:00,932 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server da ...
+2025-05-11 08:10:07,254 - [Crafty] - INFO     - audit_log - issued command start_server for server papermc with ID: 9ea0e776-6669-4091-a0e2-e816d961db9e
+2025-05-11 08:10:08,119 - [Crafty] - INFO     - app.classes.shared.server - Polling server statistics papermc every 5 seconds
+2025-05-11 08:10:08,120 - [Crafty] - INFO     - app.classes.shared.server - Saving server statistics papermc every 30 seconds
+2025-05-11 08:10:08,122 - [Crafty] - INFO     - app.classes.shared.server - Start command detected. Reloading settings from DB for server papermc
+2025-05-11 08:10:08,122 - [Crafty] - INFO     - app.classes.shared.helpers - /crafty/servers/9ea0e776-6669-4091-a0e2-e816d961db9e/tempfile.txt is writable
+2025-05-11 08:10:08,124 - [Crafty] - INFO     - app.classes.shared.server - Launching Server papermc with command ['java', '-Xms3000M', '-Xmx4000M', '-jar', 'vanilla-1.12.jar', 'nogui']
+2025-05-11 08:10:08,124 - [Crafty] - INFO     - app.classes.shared.server - Unix Detected
+2025-05-11 08:10:08,125 - [Crafty] - INFO     - app.classes.shared.server - Starting server in /crafty/servers/9ea0e776-6669-4091-a0e2-e816d961db9e with command: ['java', '-Xms3000M', '-Xmx4000M', '-jar', 'vanilla-1.12.jar', 'nogui']
+2025-05-11 08:10:08,129 - [Crafty] - INFO     - app.classes.shared.server - Server papermc running with PID 250
+2025-05-11 08:10:08,130 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server papermc ...
+2025-05-11 08:10:15,076 - [Crafty] - INFO     - audit_log - issued command stop_server for server papermc with ID: 9ea0e776-6669-4091-a0e2-e816d961db9e
+2025-05-11 08:10:15,123 - [Crafty] - INFO     - app.classes.shared.server - Can't stop server papermc if it's not running
+2025-05-11 08:10:30,932 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server da ...
+2025-05-11 08:10:38,124 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server papermc ...
+2025-05-11 08:10:49,666 - [Crafty] - INFO     - audit_log - issued command kill_server for server papermc with ID: 9ea0e776-6669-4091-a0e2-e816d961db9e
+2025-05-11 08:10:50,129 - [Crafty] - INFO     - app.classes.shared.server - Terminating server 9ea0e776-6669-4091-a0e2-e816d961db9e and all child processes
+2025-05-11 08:10:50,129 - [Crafty] - INFO     - app.classes.shared.server - Cannot kill 250 as we cannot find that pid.
+2025-05-11 08:10:55,131 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server papermc ...
+2025-05-11 08:11:00,933 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server da ...
+2025-05-11 08:11:08,122 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server papermc ...
+2025-05-11 08:11:30,932 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server da ...
+2025-05-11 08:11:38,122 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server papermc ...
+2025-05-11 08:11:46,607 - [Crafty] - INFO     - app.classes.web.routes.api.servers.server.index - Removing server and all associated files for server: papermc with ID: 9ea0e776-6669-4091-a0e2-e816d961db9e
+2025-05-11 08:11:46,608 - [Crafty] - INFO     - app.classes.shared.main_controller - Deleting Server: ID 9ea0e776-6669-4091-a0e2-e816d961db9e | Name: papermc 
+2025-05-11 08:11:46,621 - [Crafty] - INFO     - audit_log - deleted the server 9ea0e776-6669-4091-a0e2-e816d961db9e
+2025-05-11 08:12:00,932 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server da ...
+2025-05-11 08:12:24,689 - [Crafty] - INFO     - app.classes.minecraft.bigbucket - Checking Big Bucket status
+2025-05-11 08:12:24,849 - [Crafty] - INFO     - app.classes.minecraft.bigbucket - Big bucket is alive and responding as expected
+2025-05-11 08:12:30,932 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server da ...
+2025-05-11 08:12:49,825 - [Crafty] - INFO     - app.classes.shared.main_controller - No server.properties found on import.Creating one with port selection of 25566
+2025-05-11 08:12:49,831 - [Crafty] - INFO     - app.classes.controllers.servers_controller - Checking to see if we already registered 97abc04f-2a0c-4f33-bdc3-8c16f7103363
+2025-05-11 08:12:49,831 - [Crafty] - INFO     - app.classes.controllers.servers_controller - skipping initialization of server 97abc04f-2a0c-4f33-bdc3-8c16f7103363 because it is already loaded
+2025-05-11 08:12:49,833 - [Crafty] - INFO     - app.classes.controllers.servers_controller - Checking to see if we already registered 951cef48-14a5-45be-9447-7afc3bee2e95
+2025-05-11 08:12:49,835 - [Crafty] - INFO     - app.classes.shared.migration - Starting migrations
+2025-05-11 08:12:49,846 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220427_init"
+2025-05-11 08:12:49,848 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220427_init"
+2025-05-11 08:12:49,850 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20220817_schedule_rename_downloading"
+2025-05-11 08:12:49,851 - [Crafty] - INFO     - app.classes.shared.migration - Done "20220817_schedule_rename_downloading"
+2025-05-11 08:12:49,853 - [Crafty] - INFO     - app.classes.shared.migration - Migrate "20230827_add_icon"
+2025-05-11 08:12:49,854 - [Crafty] - INFO     - app.classes.shared.migration - Done "20230827_add_icon"
+2025-05-11 08:12:49,861 - [Crafty] - INFO     - app.classes.shared.server - Creating Server object: 951cef48-14a5-45be-9447-7afc3bee2e95 | Server Name: papermc | Auto Start: False
+2025-05-11 08:12:49,861 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server papermc ...
+2025-05-11 08:12:50,381 - [Crafty] - INFO     - audit_log - created server papermc (ID: 951cef48-14a5-45be-9447-7afc3bee2e95) (UUID: 951cef48-14a5-45be-9447-7afc3bee2e95)
+2025-05-11 08:12:52,882 - [Crafty] - INFO     - app.classes.minecraft.bigbucket - https://jars.arcadiatech.org/vanilla/1.12/vanilla.jar
+2025-05-11 08:12:52,910 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Requesting remote: https://jars.arcadiatech.org/vanilla/1.12/vanilla.jar
+2025-05-11 08:12:52,910 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download Destination: /crafty/servers/951cef48-14a5-45be-9447-7afc3bee2e95/vanilla-1.12.jar
+2025-05-11 08:12:52,963 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 3.47%
+2025-05-11 08:12:52,966 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 6.94%
+2025-05-11 08:12:52,969 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 10.42%
+2025-05-11 08:12:52,973 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 13.89%
+2025-05-11 08:12:52,976 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 17.36%
+2025-05-11 08:12:52,979 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 20.83%
+2025-05-11 08:12:52,986 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 24.30%
+2025-05-11 08:12:52,989 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 27.77%
+2025-05-11 08:12:52,998 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 31.25%
+2025-05-11 08:12:53,001 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 34.72%
+2025-05-11 08:12:53,004 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 38.19%
+2025-05-11 08:12:53,007 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 41.66%
+2025-05-11 08:12:53,010 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 45.13%
+2025-05-11 08:12:53,013 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 48.61%
+2025-05-11 08:12:53,015 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 52.08%
+2025-05-11 08:12:53,018 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 55.55%
+2025-05-11 08:12:53,021 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 59.02%
+2025-05-11 08:12:53,024 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 62.49%
+2025-05-11 08:12:53,027 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 65.96%
+2025-05-11 08:12:53,030 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 69.44%
+2025-05-11 08:12:53,032 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 72.91%
+2025-05-11 08:12:53,035 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 76.38%
+2025-05-11 08:12:53,038 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 79.85%
+2025-05-11 08:12:53,041 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 83.32%
+2025-05-11 08:12:53,043 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 86.80%
+2025-05-11 08:12:53,046 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 90.27%
+2025-05-11 08:12:53,049 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 93.74%
+2025-05-11 08:12:53,052 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 97.21%
+2025-05-11 08:12:53,054 - [Crafty] - INFO     - app.classes.shared.file_helpers - SSL File Get - Download progress: 100.00%
+2025-05-11 08:12:56,415 - [Crafty] - INFO     - audit_log - issued command start_server for server papermc with ID: 951cef48-14a5-45be-9447-7afc3bee2e95
+2025-05-11 08:12:57,164 - [Crafty] - INFO     - app.classes.shared.server - Polling server statistics papermc every 5 seconds
+2025-05-11 08:12:57,166 - [Crafty] - INFO     - app.classes.shared.server - Saving server statistics papermc every 30 seconds
+2025-05-11 08:12:57,168 - [Crafty] - INFO     - app.classes.shared.server - Start command detected. Reloading settings from DB for server papermc
+2025-05-11 08:12:57,169 - [Crafty] - INFO     - app.classes.shared.helpers - /crafty/servers/951cef48-14a5-45be-9447-7afc3bee2e95/tempfile.txt is writable
+2025-05-11 08:12:57,171 - [Crafty] - INFO     - app.classes.shared.server - Launching Server papermc with command ['java', '-Xms1000M', '-Xmx2000M', '-jar', 'vanilla-1.12.jar', 'nogui']
+2025-05-11 08:12:58,953 - [Crafty] - INFO     - audit_log - issued command start_server for server papermc with ID: 951cef48-14a5-45be-9447-7afc3bee2e95
+2025-05-11 08:12:59,169 - [Crafty] - INFO     - app.classes.shared.server - Polling server statistics papermc every 5 seconds
+2025-05-11 08:12:59,170 - [Crafty] - INFO     - app.classes.shared.server - Saving server statistics papermc every 30 seconds
+2025-05-11 08:12:59,172 - [Crafty] - INFO     - app.classes.shared.server - Start command detected. Reloading settings from DB for server papermc
+2025-05-11 08:12:59,172 - [Crafty] - INFO     - app.classes.shared.helpers - /crafty/servers/951cef48-14a5-45be-9447-7afc3bee2e95/tempfile.txt is writable
+2025-05-11 08:12:59,174 - [Crafty] - INFO     - app.classes.shared.server - Launching Server papermc with command ['java', '-Xms1000M', '-Xmx2000M', '-jar', 'vanilla-1.12.jar', 'nogui']
+2025-05-11 08:13:00,426 - [Crafty] - INFO     - app.classes.shared.server - Polling server statistics papermc every 5 seconds
+2025-05-11 08:13:00,427 - [Crafty] - INFO     - app.classes.shared.server - Saving server statistics papermc every 30 seconds
+2025-05-11 08:13:00,429 - [Crafty] - INFO     - app.classes.shared.server - Start command detected. Reloading settings from DB for server papermc
+2025-05-11 08:13:00,429 - [Crafty] - INFO     - app.classes.shared.helpers - /crafty/servers/951cef48-14a5-45be-9447-7afc3bee2e95/tempfile.txt is writable
+2025-05-11 08:13:00,431 - [Crafty] - INFO     - app.classes.shared.server - Launching Server papermc with command ['java', '-Xms1000M', '-Xmx2000M', '-jar', 'vanilla-1.12.jar', 'nogui']
+2025-05-11 08:13:00,432 - [Crafty] - INFO     - app.classes.shared.server - Unix Detected
+2025-05-11 08:13:00,432 - [Crafty] - INFO     - app.classes.shared.server - Starting server in /crafty/servers/951cef48-14a5-45be-9447-7afc3bee2e95 with command: ['java', '-Xms1000M', '-Xmx2000M', '-jar', 'vanilla-1.12.jar', 'nogui']
+2025-05-11 08:13:00,435 - [Crafty] - INFO     - app.classes.shared.server - Server papermc running with PID 296
+2025-05-11 08:13:00,436 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server papermc ...
+2025-05-11 08:13:00,933 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server da ...
+2025-05-11 08:13:05,003 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read json from ping_obj due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 251, in parse_server_ping
+    online_stats = json.loads(ping_obj.players)
+                              ^^^^^^^^^^^^^^^^
+AttributeError: 'bool' object has no attribute 'players'
+2025-05-11 08:13:05,009 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read the server icon due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 260, in parse_server_ping
+    server_icon = base64.encodebytes(ping_obj.icon)
+                                     ^^^^^^^^^^^^^
+AttributeError: 'bool' object has no attribute 'icon'
+2025-05-11 08:13:05,941 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read json from ping_obj due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 251, in parse_server_ping
+    online_stats = json.loads(ping_obj.players)
+                              ^^^^^^^^^^^^^^^^
+AttributeError: 'bool' object has no attribute 'players'
+2025-05-11 08:13:05,943 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read the server icon due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 260, in parse_server_ping
+    server_icon = base64.encodebytes(ping_obj.icon)
+                                     ^^^^^^^^^^^^^
+AttributeError: 'bool' object has no attribute 'icon'
+2025-05-11 08:13:09,873 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read json from ping_obj due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 251, in parse_server_ping
+    online_stats = json.loads(ping_obj.players)
+                              ^^^^^^^^^^^^^^^^
+AttributeError: 'bool' object has no attribute 'players'
+2025-05-11 08:13:09,876 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read the server icon due to the following error:
+Traceback (most recent call last):
+  File "/crafty/app/classes/minecraft/stats.py", line 260, in parse_server_ping
+    server_icon = base64.encodebytes(ping_obj.icon)
+                                     ^^^^^^^^^^^^^
+AttributeError: 'bool' object has no attribute 'icon'
+2025-05-11 08:13:30,428 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server papermc ...
+2025-05-11 08:13:30,932 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server da ...
+2025-05-11 08:14:00,428 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server papermc ...
+2025-05-11 08:14:00,933 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server da ...
+2025-05-11 08:14:30,428 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server papermc ...
+2025-05-11 08:14:30,932 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server da ...
+2025-05-11 08:15:00,428 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server papermc ...
+2025-05-11 08:15:00,932 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server da ...
+2025-05-11 08:15:30,428 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server papermc ...
+2025-05-11 08:15:30,932 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server da ...
+2025-05-11 08:16:00,428 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server papermc ...
+2025-05-11 08:16:00,933 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server da ...
+2025-05-11 08:16:30,428 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server papermc ...
+2025-05-11 08:16:30,932 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server da ...
