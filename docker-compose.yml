@@ -1,0 +1,60 @@
+version: '3.8'
+
+services:
+  crafty:
+    container_name: crafty
+    image: registry.gitlab.com/crafty-controller/crafty-4:latest
+    restart: always
+    environment:
+      - TZ=Etc/UTC
+    ports:
+      - "8443:8443"    # HTTPS
+      - "8123:8123"    # DYNMAP
+      - "19132:19132/udp"   # BEDROCK
+      - "25500-25600:25500-25600"  # MC SERV PORT RANGE
+    volumes:
+      - ./docker/backups:/crafty/backups
+      - ./docker/logs:/crafty/logs
+      - ./docker/servers:/crafty/servers
+      - ./docker/config:/crafty/app/config
+      - ./docker/import:/crafty/import
+    networks:
+      - crafty_network
+
+  playit:
+    container_name: playit
+    image: debian:bullseye
+    restart: always
+    volumes:
+      - ./playit:/playit
+    working_dir: /playit
+    entrypoint: /bin/bash
+    command: >
+      -c "
+        apt update && apt install -y curl lsof &&
+        curl -Lo playit https://autoplayit.s3.amazonaws.com/client/playit-linux-x64 &&
+        chmod +x playit &&
+        echo 'Waiting for servers...' &&
+        sleep 5 &&
+        while true; do
+          echo 'tunnels:' > config.yml
+          for port in $(seq 25500 25600); do
+            if lsof -iTCP:$port -sTCP:LISTEN -P -n >/dev/null 2>&1; then
+              echo \"  - name: mc-server-$port\" >> config.yml
+              echo \"    proto: minecraft\" >> config.yml
+              echo \"    local_ip: 0.0.0.0\" >> config.yml  # Change local_ip to 0.0.0.0
+              echo \"    local_port: $port\" >> config.yml
+            fi
+          done
+          ./playit --config config.yml || true
+          echo 'Playit tunnels are now live!' 
+          cat /playit/logs/playit.log | grep 'Public IP' 
+          sleep 10
+        done
+      "
+    networks:
+      - crafty_network
+
+networks:
+  crafty_network:
+    driver: bridge
