@@ -1,0 +1,11 @@
+2025-05-11 01:26:22,009 - [AUTH] - INFO - User attempting to authenticate from 10.241.0.36
+2025-05-11 01:26:22,083 - [AUTH] - ERROR - User attempted to log into admin. Authentication failed from remote IP 10.241.0.36
+2025-05-11 01:26:32,020 - [AUTH] - INFO - User attempting to authenticate from 10.241.0.36
+2025-05-11 01:26:32,069 - [AUTH] - ERROR - User attempted to log into admin. Authentication failed from remote IP 10.241.0.36
+2025-05-11 01:26:33,362 - [AUTH] - INFO - User attempting to authenticate from 10.241.0.36
+2025-05-11 01:26:33,412 - [AUTH] - ERROR - User attempted to log into admin. Authentication failed from remote IP 10.241.0.36
+2025-05-11 01:26:34,223 - [AUTH] - WARNING - Anti-Lockout request from 10.241.0.36
+2025-05-11 01:27:38,787 - [AUTH] - INFO - User attempting to authenticate from 10.241.0.36
+2025-05-11 01:27:38,868 - [AUTH] - INFO - admin successfully authenticated and logged into panel from remote IP 10.241.0.36
+2025-05-11 01:27:39,858 - [AUTH] - INFO - User attempting to authenticate from 10.241.0.36
+2025-05-11 01:27:39,912 - [AUTH] - INFO - admin successfully authenticated and logged into panel from remote IP 10.241.0.36
